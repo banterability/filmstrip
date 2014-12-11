@@ -6,7 +6,8 @@
     "tabs"
   ],
   "page_action": {
-    "default_title": "Download Image"
+    "default_title": "Download Image",
+    "default_icon": "icon-39.png"
   },
   "background": {
     "scripts": ["background.js"],
