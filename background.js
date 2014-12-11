@@ -4,4 +4,10 @@ function checkForInstagramPhoto(tabId, changeInfo, tab){
   }
 };
 
+function handleClick(tab){
+  chrome.tabs.executeScript(null, {file: 'content_script.js'});
+};
+
 chrome.tabs.onUpdated.addListener(checkForInstagramPhoto);
+
+chrome.pageAction.onClicked.addListener(handleClick);
