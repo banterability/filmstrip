@@ -3,7 +3,8 @@
   "version": "1.0",
   "permissions": [
     "http://instagram.com/p/*",
-    "tabs"
+    "tabs",
+    "downloads"
   ],
   "page_action": {
     "default_title": "Download Image",
