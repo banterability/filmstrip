@@ -1,6 +1,7 @@
 {
   "name": "Filmstrip",
   "version": "1.0",
+  "description": "Download images from Instagram's website",
   "permissions": [
     "http://instagram.com/p/*",
     "tabs",
