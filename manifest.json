@@ -1,0 +1,16 @@
+{
+  "name": "Filmstrip",
+  "version": "1.0",
+  "permissions": [
+    "http://instagram.com/p/*",
+    "tabs"
+  ],
+  "page_action": {
+    "default_title": "Download Image"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
